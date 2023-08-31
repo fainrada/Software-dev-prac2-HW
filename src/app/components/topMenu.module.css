@@ -1,0 +1,28 @@
+.menucontainer {
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 30;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.logoimg{
+    height: 100%;
+    width: auto;
+}
+
+.itemcontainer {
+    width: 120px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 10px;
+    color: grey;
+}
