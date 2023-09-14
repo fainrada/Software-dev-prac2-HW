@@ -8,7 +8,7 @@ export default function Banner() {
     const [index,setIndex] = useState(0)
     return (
         <div className={styles.banner} onClick={()=>{setIndex(index+1)}}>
-            <Image src={covers[index%3]} 
+            <Image src={covers[index%4]} 
             alt='banner'
             fill={true}
             objectFit ='cover'/>
