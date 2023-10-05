@@ -1,5 +1,5 @@
-import HospitalBooking from "../components/HospitalBooking";
-import VaccineDatePicker from "../components/VaccineDatePicker";
+import HospitalBooking from "../../components/HospitalBooking";
+import VaccineDatePicker from "../../components/VaccineDatePicker";
 
 export default function Booking(){
     return(

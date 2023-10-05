@@ -1,11 +1,9 @@
-import Banner from './components/Banner'
-import CardPanel from './components/CardPanel'
+import Banner from '../components/Banner'
 
 export default function Home() {
   return (
     <main>
       <Banner/>
-      <CardPanel/>
     </main>
   )
 }
