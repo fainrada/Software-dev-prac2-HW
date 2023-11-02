@@ -12,9 +12,9 @@ export default async function UserProfileCard() {
     var createdAt = new Date(profile.data.createdAt);
 
     return (
-        <div className="bg-slate-100 m-5 p-5 text-black">
-        <div className="text-2xl">{profile.data.name}</div>
-        <table className="table-auto border-separate border-spacing-2">
+        <div className="shadow-xl shadow-md m-5 p-5 text-black text-left">
+        <div className="text-xl">{profile.data.name}</div>
+        <table className="table-auto border-separate border-spacing-1">
           <tbody>
             <tr>
               <td>Email</td>
